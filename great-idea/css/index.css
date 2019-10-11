@@ -212,11 +212,16 @@ h1 {
 
 .option-box {
 	border: solid black 1px;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	background: #f4f3f4;
 	width: 400px;
 	height: 200px;
-	margin: 10px;
+	margin: 0 10px;
+} 
+
+.option-box:nth-child(3),
+.option-box:nth-child(4){
+	margin: -15px 10px;
 }
 
 h4 {
@@ -227,12 +232,16 @@ p {
 	margin: 15px;
 }
 
+#firstbreak {
+	margin: 20px 0;
+}
+
 hr {
     border: none;
     height: 5px;
     color: #333; 
 	background-color: #333; 
-	margin: 20px;
+	margin: 0 20px;
 }
 
 .button {
