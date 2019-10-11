@@ -237,8 +237,9 @@ hr {
 
 .button {
 	display: flex;
-	margin: 15px;
-	
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 5px;
 } 
 
 .factsandservice {
